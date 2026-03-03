@@ -3,6 +3,7 @@ using UnityEngine;
 public class Player_controler : MonoBehaviour
 {
     public float horizontalInput;
+    public float speed = 10.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,5 +14,6 @@ public class Player_controler : MonoBehaviour
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
+        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
     }
 }

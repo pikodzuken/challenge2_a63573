@@ -30,7 +30,7 @@ public class Player_controler : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            
+            Instantiate(ProjectilePrefab, transform.position, ProjectilePrefab.transform.rotation);
         }
     }
 }

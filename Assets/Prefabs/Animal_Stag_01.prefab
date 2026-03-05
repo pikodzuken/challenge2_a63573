@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1502663260551406261}
   - component: {fileID: 4512705824295391825}
   - component: {fileID: 8568251722758219042}
+  - component: {fileID: 5129884555769261469}
   m_Layer: 0
   m_Name: Animal_Stag_01
   m_TagString: Untagged
@@ -91,6 +92,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 532c98b14763fbe4e8618f9b243ce497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutBounds
+--- !u!65 &5129884555769261469
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378656644150129354}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16447581, y: 0.47737488, z: 0.41043317}
+  m_Center: {x: 0.0000003793023, y: 0.2257954, z: 0.04482937}
 --- !u!1 &2131201865343017334
 GameObject:
   m_ObjectHideFlags: 0

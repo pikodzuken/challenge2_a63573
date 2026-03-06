@@ -195,10 +195,10 @@ GameObject:
   - component: {fileID: 5517999678347231244}
   - component: {fileID: 4316508626783527009}
   - component: {fileID: 7470129970737909663}
-  - component: {fileID: 3579991002089312026}
+  - component: {fileID: 2718977768935146129}
   m_Layer: 0
   m_Name: Animal_Moose_02
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -296,7 +296,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.19517331, y: 0.48591295, z: 0.45473957}
   m_Center: {x: 0.0015079109, y: 0.22675762, z: 0.061251685}
---- !u!114 &3579991002089312026
+--- !u!114 &2718977768935146129
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -305,9 +305,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3920903198955186466}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 463a8e7e917081f48931e92b85250d0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6cfe150eb0868684aa0d4d3ccc1f62bd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalHit
 --- !u!1 &3945162826749133245
 GameObject:
   m_ObjectHideFlags: 0

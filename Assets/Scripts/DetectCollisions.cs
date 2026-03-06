@@ -20,16 +20,17 @@ public class DetectCollisions : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //Check if the other tag was the Player, if it was remove a life
         if (other.CompareTag("Player"))
         {
             gameManager.AddLives(-1);
             Destroy(gameObject);
         }
+        //Check if the other tag was an Animal, if so feed the animal
         else if (other.CompareTag("Animal"))
         {
-            gameManager.AddScore(1);
-            Destroy(gameObject);
-            Destroy(other.gameObject);
+            other.GetComponent<AnimalHunger>().FeedAnimal(1);
+            Destroy(gameObject); // destrói o projétil
         }
     }
 }
